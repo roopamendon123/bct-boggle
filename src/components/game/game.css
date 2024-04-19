@@ -1,0 +1,48 @@
+.badge {
+  position: relative;
+  margin: 10px;
+  padding: 10px;
+  min-width: 150px;
+  background: #fb7c39;
+  text-align: center;
+  font-weight: bold;
+  color: #fff;
+  text-transform: uppercase;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #fff;
+  border-radius: 10px;
+}
+
+.badgeTip {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  font-size: 12px;
+  background: red;
+  padding: 5px;
+  border-radius: 50px;
+  text-align: center;
+  width: 15px;
+  height: 15px;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 10px 50px 10px;
+  flex-direction: column;
+}
+
+.wrapper .totalscore {
+  font-size: 20px;
+}
+
+.wrapper .restart {
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #681763;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 6px;
+  margin-top: 20px;
+}

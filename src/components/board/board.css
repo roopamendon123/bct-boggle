@@ -1,0 +1,67 @@
+.gameBoard {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 20px;
+  margin: 10px;
+  background: #681763;
+  border-radius: 20px;
+}
+
+.diceHolder {
+  background: rgba(0, 0, 0, 0.7);
+  padding: 5px;
+  border-radius: 20px;
+  width: 100%;
+}
+
+.tile {
+  display: inline-flex;
+  position: relative;
+  width: calc(100% / 4);
+  max-width: 100px;
+  min-width: 50px;
+  height: auto;
+  justify-content: center;
+  align-items: center;
+  font-size: 50px;
+  color: #2e294e;
+  text-align: center;
+  background: white;
+  border-radius: 20px;
+  margin: 2px;
+  background: radial-gradient(
+    circle at 50% top,
+    #f8f8f8 60%,
+    #d9d9d9 85%,
+    #cccccc 90%
+  );
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: #2e294e;
+  padding: 20px;
+}
+
+.diceRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.tile::before {
+  content: "";
+  position: absolute;
+  display: inline;
+  background: transparent;
+  width: 85%;
+  height: 85%;
+  top: 5%;
+  border: 1px solid #cccccc;
+  border-radius: 100px;
+}
+
+.enteredword {
+  padding: 10px;
+}
