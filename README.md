@@ -33,7 +33,7 @@ obligated to use this feature. However we understand that this tool wouldn't be 
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-### `Note: Please read below points to before run the game`
+### `Note: Please read the below points before running the application`
 
 1. '3' Minutes Timer is on place for both the options(Play, Play with Friens)
 2. 'Single Player':-Here Single player is playing the game, Scores are calculated as expected by the assignment documentation. Validations also in place(refer the validtors.js file).
